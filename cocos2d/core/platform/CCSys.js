@@ -755,7 +755,7 @@ function initSys () {
             // desktop
             capabilities["keyboard"] = true;
             capabilities["mouse"] = true;
-            capabilities["touches"] = false;
+            capabilities["touches"] = true;
         }
 
         capabilities['imageBitmap'] = false;
